@@ -1,10 +1,9 @@
 import React from "react";
 import { useState } from "react";
-import "./result.css";
 import Title from "../../components/Title";
-import Img1 from '../../assets/images/img1.jpg';
-import Img2 from '../../assets/images/img2.png';
-import Img3 from '../../assets/images/img3.jpg';
+import Img1 from '../../assets/images/stanford.jpg';
+import Img2 from '../../assets/images/novogang.jpg';
+import Img3 from '../../assets/images/intercon.jpg';
 import Room1 from '../../assets/images/room1.jpg';
 import Room2 from '../../assets/images/room2.jpg';
 import Room3 from '../../assets/images/room3.jpeg';
@@ -14,7 +13,7 @@ import Room7 from '../../assets/images/room7.jpeg';
 
 
 
-function Result() {
+function Page17_2() {
     let [modal1, setModal1] = useState(false);
     let [modal2, setModal2] = useState(false);
     let [modal3, setModal3] = useState(false);
@@ -73,17 +72,17 @@ function Result() {
                         <img src={Img1} style={{ width: "250px" }} />
                         <div style={{ display: 'inline-block', fontFamily: "Dohyeon", display: "block", margin: "0 auto" }}>
                             <div style={{ fontSize: "40px", marginTop: "20px", marginBottom: "20px" }}>
-                                신라스테이 마포
+                                스탠포드 호텔 서울
                             </div>
                             <hr style={{ width: "330px" }} />
                             <div style={{ fontSize: "25px", display: "flex", justifyContent: "space-between" }}>
                                 <div style={{ color: "gold", display: "flex" }}>
                                     ★
                                     <div style={{ color: "black" }}>
-                                        4.3
+                                        4.5
                                     </div>
                                 </div>
-                                15000원
+                                132,000원
                                 <div >
 
                                 </div>
@@ -95,7 +94,7 @@ function Result() {
                             </div>
                             <hr style={{ width: "330px" }} />
                             <div style={{ fontSize: "20px" }}>
-                                공덕역 1번출구 도보 3분
+                                디지털미디어시티역 1.17km 자동차 4분
                             </div>
 
                         </div>
@@ -115,18 +114,18 @@ function Result() {
                     }}>
                         <img src={Img2} style={{ width: "180px", height: "150px" }} />
                         <div style={{ display: 'inline-block', fontFamily: "Dohyeon", display: "block", margin: "0 auto" }}>
-                            <div style={{ fontSize: "30px", marginTop: "15px", marginBottom: "15px" }}>
-                                글래드 마포
+                            <div style={{ fontSize: "26px", marginTop: "15px", marginBottom: "15px" }}>
+                                노보텔 앰배서더 강남
                             </div>
                             <hr style={{ width: "200px" }} />
                             <div style={{ fontSize: "15px", display: "flex", justifyContent: "space-between" }}>
                                 <div style={{ color: "gold", display: "flex" }}>
                                     ★
                                     <div style={{ color: "black" }}>
-                                        4.3
+                                        4.6
                                     </div>
                                 </div>
-                                15000원
+                                264,000원
                                 <div >
 
                                 </div>
@@ -134,8 +133,9 @@ function Result() {
                             </div>
                             <hr style={{ width: "200px" }} />
                             <div style={{ fontSize: "15px" }}>
-                                공덕역 바로 앞
+                                신논현역 4번출구 도보 5분
                             </div>
+
 
                         </div>
                     </div>
@@ -154,18 +154,18 @@ function Result() {
                     }}>
                         <img src={Img3} style={{ width: "180px", height: "150px" }} />
                         <div style={{ display: 'inline-block', fontFamily: "Dohyeon", display: "block", margin: "0 auto" }}>
-                            <div style={{ fontSize: "30px", marginTop: "15px", marginBottom: "15px" }}>
-                                스탠포드 호텔 서울
+                            <div style={{ fontSize: "22px", marginTop: "18px", marginBottom: "18px" }}>
+                                인터컨티넨탈 서울 코엑스
                             </div>
                             <hr style={{ width: "200px" }} />
                             <div style={{ fontSize: "15px", display: "flex", justifyContent: "space-between" }}>
                                 <div style={{ color: "gold", display: "flex" }}>
                                     ★
                                     <div style={{ color: "black" }}>
-                                        4.3
+                                        4.8
                                     </div>
                                 </div>
-                                15000원
+                                257,120원
                                 <div >
 
                                 </div>
@@ -173,7 +173,7 @@ function Result() {
                             </div>
                             <hr style={{ width: "200px" }} />
                             <div style={{ fontSize: "15px" }}>
-                                디지털미디어시티역 1.17km 자동차 4분
+                                삼성역, 봉은사역 도보 10분
                             </div>
 
 
@@ -292,4 +292,4 @@ function Result() {
     );
 }
 
-export default Result;
+export default Page17_2;
